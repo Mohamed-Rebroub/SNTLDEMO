@@ -12,6 +12,6 @@ public class Client : BaseEntity
     [Required] public string CIN { get; set; } = string.Empty;
     [Required] public string Addresse { get; set; } = string.Empty;
     [Required] public string Telephone { get; set; } = string.Empty;
-    public DateTime DateNaissance { get; set; }
+    [Required] public DateTime DateNaissance { get; set; }
 
 }
