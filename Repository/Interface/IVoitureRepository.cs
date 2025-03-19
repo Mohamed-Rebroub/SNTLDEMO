@@ -10,6 +10,7 @@ public interface IVoitureRepository
     Task<IEnumerable<Voiture>?> GetAllVoituresAsync();
     Task<Voiture?> GetVoitureByIdAsync(int id);
     Task<Voiture?> GetVoitureByCinAsync(string immatriculation);
-    Task<bool> DeleteVoitureById(int id);
-    Task<bool> DeleteVoitureByImmatriculation(int immatriculation);
+    Task<Voiture?> UpdateVoitureAsync(int id, Voiture voiture);
+    Task<bool> DeleteVoitureByIdAsync(int id);
+    Task<bool> DeleteVoitureByImmatriculationAsync(int immatriculation);
 }

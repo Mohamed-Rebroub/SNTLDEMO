@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using AssuranceSNTL.Models.Common;
 
@@ -20,5 +21,7 @@ public class Client : BaseEntity
     public string Telephone { get; set; } = string.Empty;
     [Required,MaxLength(100)]
     public DateTime DateNaissance { get; set; }
-
+    
+    //navigation
+    public IEnumerable<Voiture> Voitures { get; set; } = [];
 }
