@@ -1,4 +1,6 @@
-﻿using AssuranceSNTL.Models.Common;
+﻿using System;
+using System.Collections.Generic;
+using AssuranceSNTL.Models.Common;
 
 namespace AssuranceSNTL.Models
 {
