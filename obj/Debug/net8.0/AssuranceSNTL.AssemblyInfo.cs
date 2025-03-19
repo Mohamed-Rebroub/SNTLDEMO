@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AssuranceSNTL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+290aedcda8e32168820e8960babd6fcd5b6994ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b3eca160780364c46ad85aa8210bc7471548369")]
 [assembly: System.Reflection.AssemblyProductAttribute("AssuranceSNTL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AssuranceSNTL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

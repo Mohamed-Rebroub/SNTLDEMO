@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\projet Dotnet\\AssuranceSNTL\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42C6C4F5-11D5-48BA-B5AB-E6EDD17AECBE}|AssuranceSNTL.csproj|c:\\users\\asus\\desktop\\projet dotnet\\assurancesntl\\assurancesntl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42C6C4F5-11D5-48BA-B5AB-E6EDD17AECBE}|AssuranceSNTL.csproj|solutionrelative:assurancesntl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssuranceSNTL",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\projet Dotnet\\AssuranceSNTL\\AssuranceSNTL.csproj",
+              "RelativeDocumentMoniker": "AssuranceSNTL.csproj",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\projet Dotnet\\AssuranceSNTL\\AssuranceSNTL.csproj",
+              "RelativeToolTip": "AssuranceSNTL.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-19T10:04:35.51Z",
+              "EditorCaption": ""
             }
           ]
         }
