@@ -1,4 +1,5 @@
-﻿using AssuranceSNTL.Models;
+﻿using System.Collections.Generic;
+using AssuranceSNTL.Models;
 using System.ComponentModel.DataAnnotations;
 
 namespace AssuranceSNTL.DTO.PackAssurance

@@ -6,8 +6,8 @@ namespace AssuranceSNTL.Models;
 public class Voiture : BaseEntity
 {
     [Key]
-    [Required] public int VoitureId { get; set; }
-
+    [Required]
+    public int VoitureId { get; set; }
     [Required,MaxLength(100)] 
     public string Marque { get; set; } = string.Empty;
     [Required,MaxLength(100)] 
@@ -17,9 +17,9 @@ public class Voiture : BaseEntity
     [Required]
     public int Annee { get; set; } 
     [Required]  
-    public int PuissanceFiscale { get; set; } 
+    public int PuissanceFiscale { get; set; }
+    [Required]  
     public int ClientId { get; set; } 
     public Client Client { get; set; }
-
-
+    
 }

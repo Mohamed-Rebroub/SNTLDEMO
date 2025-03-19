@@ -1,4 +1,6 @@
-﻿using AssuranceSNTL.Models;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using AssuranceSNTL.Models;
 
 namespace AssuranceSNTL.Repository.Interface
 {
