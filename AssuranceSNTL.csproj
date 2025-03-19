@@ -25,6 +25,6 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-	  <Folder Include="DTO\" />
+	  <Folder Include="DTO\Voiure\" />
 	</ItemGroup>
 </Project>
