@@ -8,7 +8,7 @@ namespace AssuranceSNTL.Repository.Interface
     {
         Task<IEnumerable<PackAssurance>> GetAllPacksAssuranceAsync();
         Task<PackAssurance> GetPackAssuranceByIdAsync(int id);
-        Task<PackAssurance> GetPackAssuranceByIdName(int id);
+        Task<PackAssurance> GetPackAssuranceByIdName(string name);
 
 
         Task AddPackAssuranceAsync(PackAssurance packAssurance, List<int> AssuranceIds);
