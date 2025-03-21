@@ -18,8 +18,8 @@ namespace AssuranceSNTL.Models
         public Voiture Voiture { get; set; } 
 
         public int ClientId { get; set; } 
-        public Client Client { get; set; } 
+        public Client Client { get; set; }
 
-        public ICollection<TypeAssurance> TypeAssurances { get; set; } 
+        public ICollection<ContratTypeAssurance> ContratTypeAssurances { get; set; } = new List<ContratTypeAssurance>();
     }
 }

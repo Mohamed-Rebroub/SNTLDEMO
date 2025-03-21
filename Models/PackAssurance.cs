@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using AssuranceSNTL.Models.Common;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Contracts;
 
 namespace AssuranceSNTL.Models
 {
-    public class PackAssurance
+    public class PackAssurance : BaseEntity
     {
 
         [Key]
@@ -15,7 +16,8 @@ namespace AssuranceSNTL.Models
 
         [Required, MaxLength(500)]
         public string Description { get; set; }
+        public ICollection<Contrat> Contrats { get; set; } = new List<Contrat>();
 
-        public ICollection<PackTypeAssurance> PackTypeAssurances { get; set; }
+        public ICollection<PackTypeAssurance> PackTypeAssurances { get; set; } = new List<PackTypeAssurance>();
     }
 }

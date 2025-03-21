@@ -18,6 +18,5 @@ namespace AssuranceSNTL.DTO.TypeAssurance
         [Required, MaxLength(500)]
         public decimal Prix { get; set; }
 
-        public List<int> PackTypeAssurancesId { get; set; }
     }
 }
