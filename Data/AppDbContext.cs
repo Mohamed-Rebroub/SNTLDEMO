@@ -8,9 +8,11 @@ namespace AssuranceSNTL.Data
     {
         public DbSet<Client> Clients { get; set; }
         public DbSet<Voiture> Voitures { get; set; }
-        public DbSet<PackAssurance> packAssurances {  get; set; }
-        public DbSet<TypeAssurance> typeAssurances { get; set; }
+        public DbSet<PackAssurance> PackAssurances {  get; set; }
+        public DbSet<TypeAssurance> TypeAssurances { get; set; }
         public DbSet<Contrat> contrats { get; set; }
+        public DbSet<ContratTypeAssurance> ContratTypeAssurance { get; set; }
+        public DbSet<PackTypeAssurance> PackTypeAssurances { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

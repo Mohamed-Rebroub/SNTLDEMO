@@ -15,6 +15,6 @@ namespace AssuranceSNTL.Repository.Interface
 
         Task AddTypeAssuranceAsync(TypeAssurance typeAssurance);
         Task UpdateTypeAssuranceAsync(TypeAssurance typeAssurance);
-        Task DeleteTypeAssuranceAsync(int id);
+        Task<bool> DeleteTypeAssuranceAsync(int id);
     }
 }

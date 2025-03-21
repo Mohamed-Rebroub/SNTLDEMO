@@ -17,6 +17,6 @@ namespace AssuranceSNTL.DTO.PackAssurance
         [Required, MaxLength(500)]
         public string Description { get; set; }
 
-        public List<int> PackTypeAssurancesID { get; set; }
+        public List<int> TypeAssuranceID { get; set; }
     }
 }
