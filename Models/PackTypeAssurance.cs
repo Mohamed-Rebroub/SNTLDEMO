@@ -12,7 +12,7 @@ namespace AssuranceSNTL.Models
         [Required]
         public int PackAssuranceID { get; set; }
 
-        public PackAssurance PackAssurances { get; set; }
+        public PackAssurance PackAssurance { get; set; }
 
         [Required]
         public int TypeAssuranceID { get; set; }

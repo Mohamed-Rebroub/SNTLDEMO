@@ -22,7 +22,6 @@ namespace AssuranceSNTL.Data
                 .HasForeignKey(v => v.ClientId);
 
 
-            // Relation entre Contrat et PackAssurance (Many-to-One)
             modelBuilder.Entity<Contrat>()
                 .HasOne(c => c.PackAssurance)
                 .WithMany(p => p.Contrats)
@@ -30,7 +29,6 @@ namespace AssuranceSNTL.Data
 
            
 
-            // Relation Many-to-Many entre Contrat et TypeAssurance via la table de jointure ContratTypeAssurance
             modelBuilder.Entity<ContratTypeAssurance>()
                 .HasKey(cta => new { cta.ContratId, cta.TypeAssuranceId });
 
@@ -44,7 +42,6 @@ namespace AssuranceSNTL.Data
                 .WithMany(ta => ta.ContratTypeAssurances)
                 .HasForeignKey(cta => cta.TypeAssuranceId);
 
-            // Relation many-to-many entre PackAssurance et TypeAssurance via PackTypeAssurance
             modelBuilder.Entity<PackTypeAssurance>()
                 .HasKey(pta => new { pta.PackAssuranceID, pta.TypeAssuranceID });
 
@@ -55,7 +52,7 @@ namespace AssuranceSNTL.Data
 
             modelBuilder.Entity<PackTypeAssurance>()
                 .HasOne(pta => pta.TypeAssurance)
-                .WithMany() // Pas de navigation inverse depuis TypeAssurance
+                .WithMany() 
                 .HasForeignKey(pta => pta.TypeAssuranceID);
 
         }

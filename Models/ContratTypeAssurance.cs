@@ -8,6 +8,6 @@ namespace AssuranceSNTL.Models
         public Contrat Contrat { get; set; } 
 
         public int TypeAssuranceId { get; set; } 
-        public TypeAssurance TypeAssurance { get; set; } 
+        public TypeAssurance? TypeAssurance { get; set; } 
     }
 }
